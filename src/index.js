@@ -12,6 +12,8 @@ import ReactDOM from 'react-dom';
         <div>
           <h1>Greatings</h1>
           <Hello/>
+          <Hello/>
+          <Hello/>
         </div>
       )
     }
