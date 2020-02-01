@@ -7,7 +7,7 @@ import ReactDOM from 'react-dom';
 
       return(
         <div>
-          <p>Hello World</p>
+          <p>Hello World, it is {now.toString()}</p>
           <p>
           {a} plus {b} is {a + b}
           </p>
