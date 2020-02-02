@@ -1,9 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-  const Hello = () => {
+  const Hello = (props) => {
     return (
       <div>
-        <p>Hello world</p>
+        <p>Hello {props.name}</p>
       </div>
     )
   }
@@ -11,8 +11,8 @@ import ReactDOM from 'react-dom';
     return(
         <div>
           <h1>Greatings</h1>
-          <Hello/>
-          <Hello/>
+          <Hello name="George"/>
+          <Hello name="Nick"/>
           <Hello/>
         </div>
       )
