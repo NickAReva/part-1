@@ -12,7 +12,7 @@ import ReactDOM from 'react-dom';
   const Footer = () =>{
     return (
       <div>
-        greeting app created by 
+        greeting app created by
         <a href="https://github.com/mluukkai">mluukkai</a>
       </div>
     )
@@ -22,12 +22,12 @@ import ReactDOM from 'react-dom';
     const age= 10
     const feature='beautiful'
     return(
-        <div>
+
           <h1>Greatings</h1>
           <Hello name="Maya" age={26+10} feature="pretty"/>
           <Hello name={name} age={age} feature={feature}/>
           <Footer />
-        </div>
+        
       )
     }
 
