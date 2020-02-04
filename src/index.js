@@ -12,7 +12,7 @@ import ReactDOM from 'react-dom';
   const Footer = () =>{
     return (
       <div>
-        greeting app created by
+        greeting app created by 
         <a href="https://github.com/mluukkai">mluukkai</a>
       </div>
     )
