@@ -21,13 +21,15 @@ import ReactDOM from 'react-dom';
     const name='Peter'
     const age= 10
     const feature='beautiful'
-    return[
+    return (
+      <>
           <h1>Greatings</h1>
           <Hello name="Maya" age={26+10} feature="pretty"/>
           <Hello name={name} age={age} feature={feature}/>
           <Footer />
-        ]
-    }
+      </>
+    )
+  }
 
 
 ReactDOM.render(<App />, document.getElementById('root'));
