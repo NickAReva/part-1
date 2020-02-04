@@ -4,7 +4,7 @@ import ReactDOM from 'react-dom';
     return (
       <div>
         <p>
-        Hello {props.name}, you are {props.age} years old
+        Hello {props.name}, you are {props.age} years old and you are {props.feature}
         </p>
       </div>
     )
@@ -12,12 +12,13 @@ import ReactDOM from 'react-dom';
   const App = () =>{
     const name='Peter'
     const age= 10
+    const feature='beautiful'
     return(
         <div>
           <h1>Greatings</h1>
-          <Hello name="Maya" age={26+10}/>
-          <Hello name={name} age={age}/>
-          <Hello/>
+          <Hello name="Maya" age={26+10} feature="pretty"/>
+          <Hello name={name} age={age} feature={feature}/>
+          <Hello />
         </div>
       )
     }
